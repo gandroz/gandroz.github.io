@@ -1,0 +1,250 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <title>Guillaume Androz Resume</title>
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans&subset=latin,latin-ext' rel='stylesheet' type='text/css'>
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" rel="stylesheet" />
+    <script type="text/javascript" src='https://code.jquery.com/jquery-2.1.1.min.js'></script>
+    <script src="https://cdn.jsdelivr.net/velocity/1.2.3/velocity.min.js"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="myStyle.css">
+    <meta charset="UTF-8">
+</head>
+<body>
+    <div id="content" class="container">
+        <nav id="menu" class="navbar-default">
+            <div class="container">
+                <ul class="nav navbar-nav">
+                    <li class="active"><a href="#about">Contact</a></li>
+                    <li><a href="#experience">Experience</a></li>
+                    <li><a href="#competences">Competences</a></li>
+                    <li><a href="#education">Education</a></li>
+                    <li><a href="#personal">Implications</a></li>
+                </ul>
+            </div>
+        </nav>
+        <section id="main">
+            <article id="about" class="container">
+                <div class="row">
+                    <div class="col-md-8 col-md-offset-1">
+                        <h1>Guillaume Androz</h1>
+                        <h3>Concepteur en traitement du signal</h3>
+                    </div>
+                    <div class="col-md-3">
+                        <div class="coordonnees">
+                            <p class="phone"><i class="fa fa-phone fa-lg"></i>&nbsp; 418-915-1489</p>
+                            <p class="phone"><i class="fa fa-mobile fa-2x"></i>&nbsp; 418-554-6820</p>
+                            <p><i class="fa fa-envelope fa-lg"></i>&nbsp; <a id="courriel">Contactez moi</a></p>
+                            <p><i class="fa fa-globe fa-lg"></i>&nbsp; <a href="http://www.codingtricks.biz"> CodingTricks.biz</a></p>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-8 col-md-offset-1">
+                        <div class="links">
+                            <a href="https://github.com/Zygonie"><img src="./github_icon.png" class="icon" alt="Github" /></a>
+                            <a href="https://twitter.com/GuAndroz"><img src="./twitter_icon.png" class="icon" alt="Twitter" /></a>
+                            <a href="https://www.linkedin.com/in/gandroz"><img src="./linkedin_icon.png" class="icon" alt="LinkedIn" /></a>
+                        </div>
+                    </div>
+                </div>
+            </article>
+            <!--<article id="about2" class="container">
+                <div class="row">
+                    <h1>Loren ipsum</h1>
+                </div>
+            </article>-->
+            <article id="experience" class="container">
+                <div class="header">
+                    <h1 class="title"><span class="logo"><img src="./experience.png" alt="LOGO" class="img-logo-small" /></span>Expérience</h1>
+                </div>
+                <div class="exp_item row">
+                    <div class="circle-actual col-md-3">
+                        <div class="cicle-date">2016<br />présent</div>
+                    </div>
+                    <div class="exp-descr col-md-9">
+                        <p class="uppercase exp-title">DEVELOPPEUR LOGICIEL - TRAITEMENT DE SIGNAL (Icentia Inc.)</p>
+                        <p class="exp-txt">
+                            Architecture et développement d'un logiciel d'analyse d'ECG longue durée sous Linux/Python. 
+                            Amélioration des algorithmes de détection de battements cardiaque et de bruit.
+                            Apprentissage profond (deep learning / intelligence artificielle) avec Kears/Tensorflow sur 
+                            CPU/GPU.
+                            Déploiement scripté (fabric) sur multiples stations avec Docker. 
+                            Tests automatisés et comparaison de performance avec les bases de données de Physionet.
+                            Languages utilisés : Python, C, Bash, Docker
+                        </p>
+                    </div>
+                </div>
+                <div class="exp_item row">
+                    <div class="circle col-md-3">
+                        <div class="cicle-date">2011<br />2016</div>
+                    </div>
+                    <div class="exp-descr col-md-9">
+                        <p class="uppercase exp-title">CONCEPTEUR EN TRAITEMENT DE SIGNAL (Exfo Inc.)</p>
+                        <p class="exp-txt">
+                            Conception et implémentation d’algorithmes de traitement de signal pour des mesures 
+                            par réflectométrie optique.
+                            Tests/calibration automatisés, Serveur de base de données NoSQL pour la
+                            caractérisation d’appareils, application web et agrégation des résultats avec
+                            l’aggregation pipeline de MongoDB et Map-Reduce, Algorithmes de traitement
+                            du signal appliqués à la réflectométrie optique.
+                            Entretien du contrôleur des appareils.
+                            Création de solutions logicielles pour les besoins du service de recherche et 
+                            développement.
+                            Languages utilisés : C#, Matlab, C++
+                        </p>
+                    </div>
+                </div>
+                <div class="exp_item row">
+                    <div class="circle col-md-3">
+                        <div class="cicle-date">2009<br />2011</div>
+                    </div>
+                    <div class="exp-descr col-md-9">
+                        <p class="uppercase exp-title">CHERCHEUR (FibreLase)</p>
+                        <p class="exp-txt">Développement d’épissures pour les verres fluorés, Développement d’un laser infrarouge à fibre de ZBLAN.</p>
+                    </div>
+                </div>
+            </article>
+            <article id="competences" class="container">
+                <div class="row">
+                    <div class="header">
+                        <h1 class="title"><span class="logo"><img src="./competences.png" alt="LOGO" class="img-logo-small" /></span>Compétences</h1>
+                    </div>
+                    <div class="wrapper col-md-8 col-md-offset-2">
+                        <div class="line" pos="33"></div>
+                        <div class="wordwrapper" pos="33">
+                            <div class="word">Theorique</div>
+                        </div>
+                        <div class="line" pos="66"></div>
+                        <div class="wordwrapper" pos="66">
+                            <div class="word">Competent</div>
+                        </div>
+                        <div class="line" pos="100"></div>
+                        <div class="wordwrapper" pos="100">
+                            <div class="word">Expert</div>
+                        </div>
+                        <div class="progress">
+                            <div class="progress-bar" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" size="90">C#</div>
+                        </div>
+                        <div class="progress">
+                            <div class="progress-bar" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" size="90">Python (Numpy, Scikit, Keras, PyQT)</div>
+                        </div>
+                        <div class="progress">
+                            <div class="progress-bar" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" size="90">Matlab</div>
+                        </div>
+                        <div class="progress">
+                            <div class="progress-bar" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" size="100">Méthodes numériques (éq. différentielles, él. finis etc.)</div>
+                        </div>
+                        <div class="progress">
+                            <div class="progress-bar" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" size="100">Simulations (Monte Carlo, chaines de Markov etc.)</div>
+                        </div>
+                        <div class="progress">
+                            <div class="progress-bar" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" size="66">C/C++</div>
+                        </div>
+                        <div class="progress">
+                            <div class="progress-bar" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" size="66">MongoDB</div>
+                        </div>
+                        <div class="progress">
+                            <div class="progress-bar" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" size="66">MongoDB/ExpressJS/AngularJS/node.js (M.E.A.N.)</div>
+                        </div>
+                        <div class="progress">
+                            <div class="progress-bar" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" size="75">Aggregation framework/Map-Reduce</div>
+                        </div>
+                        <div class="progress">
+                            <div class="progress-bar" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" size="75">IA (avec Tensorflow, Theano, Keras)</div>
+                        </div>
+                        <div class="progress">
+                            <div class="progress-bar" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" size="38">SQL</div>
+                        </div>
+                        <div class="progress">
+                            <div class="progress-bar" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" size="66">Linux</div>
+                        </div>
+                        <div class="progress">
+                            <div class="progress-bar" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" size="60">Docker</div>
+                        </div>
+                    </div>
+                </div>
+            </article>
+            <article id="education">
+                <div class="container">
+                    <div class="header">
+                        <h1 class="title"><span class="logo"><img src="./education.png" alt="LOGO" class="img-logo-large" /></span>Education</h1>
+                    </div>
+                    <div class="edu-item row">
+                        <div class="rect col-md-3">2010</div>
+                        <div class="edu-descr col-md-9">
+                            <h3 class="edu-title">Doctorat en physique</h3>
+                            <h4>Université Laval, Québec, Canada</h4>
+                            <p class="edu-txt">Etude d'un laser à fibre de ZBLAN dopée au thulium émettant dans le proche infrarouge.</p>
+                        </div>
+                    </div>
+                    <div class="edu-item row">
+                        <div class="rect col-md-3">2002</div>
+                        <div class="edu-descr col-md-9">
+                            <h3 class="edu-title">Diplome d'etudes approfondies (DEA)</h3>
+                            <h4>INPG, Grenoble, France</h4>
+                            <p class="edu-txt">Optique, Optoelectronique et Micro-ondes.</p>
+                        </div>
+                    </div>
+                    <div class="edu-item row">
+                        <div class="rect col-md-3">2002</div>
+                        <div class="edu-descr col-md-9">
+                            <h3 class="edu-title">Diplome d'ingenieur</h3>
+                            <h4>ENSPG, Grenoble, France</h4>
+                            <p class="edu-txt">Physique des composants micro/opto-electroniques.</p>
+                        </div>
+                    </div>
+                </div>
+            </article>
+            <article id="personal">
+                <div class="container">
+                    <div class="header">
+                        <h1 class="title"><span class="logo"><img src="./personal.png" alt="LOGO" class="img-logo-large" /></span>Implication</h1>
+                    </div>
+                    <div class="pers-Item row">
+                        <div class="col-md-4">
+                            <div class="pers-date">2013-2014</div>
+                        </div>
+                        <div class="pers-descr col-md-8">
+                            <p class="uppercase pers-title">Administrateur</p>
+                            <p class="pers-txt">Conseil d'administration du Centre de la Petite Enfance La Découverte</p>
+                        </div>
+                    </div>
+                    <div class="pers-Item row">
+                        <div class="col-md-4">
+                            <div class="pers-date">2005-2007</div>
+                        </div>
+                        <div class="pers-descr col-md-8">
+                            <p class="uppercase pers-title">Secrétaire SPIE</p>
+                            <p class="pers-txt">Section étudiante de l'International Society for Optical Engineering</p>
+                        </div>
+                    </div>
+                    <div class="pers-Item row">
+                        <div class="col-md-4">
+                            <div class="pers-date">2004-2007</div>
+                        </div>
+                        <div class="pers-descr col-md-8">
+                            <p class="uppercase pers-title">Secrétaire OSA</p>
+                            <p class="pers-txt">Chapitre étudiant de l'Optical Society of America</p>
+                        </div>
+                    </div>
+                    <div class="pers-Item row">
+                        <div class="col-md-4">
+                            <div class="pers-date">2000-2001</div>
+                        </div>
+                        <div class="pers-descr col-md-8">
+                            <p class="uppercase pers-title">Membre associatif</p>
+                            <p class="pers-txt">Association étudiante de l'Ecole Nationale Supérieure de Physique de Grenoble</p>
+                        </div>
+                    </div>
+                </div>
+            </article>
+            <footer>
+                <p> © Guillaume Androz</p>
+            </footer>
+        </section>
+    </div>
+    <script src="jquery.nicescroll.js"></script>
+    <script type="text/javascript" src="myScript.js"></script>
+</body>
+</html>
